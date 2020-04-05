@@ -1,0 +1,127 @@
+/*!
+ * ress.css • v1.2.2
+ * MIT License
+ * github.com/filipelinhares/ress
+ */
+
+/* # =================================================================
+   # Global selectors
+   # ================================================================= */
+
+body{
+  padding:15px;
+  text-align: center;
+
+/*トップ画像*/
+/*background-image: url("../img/header.png");
+background-size:50%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: top center;*/
+}
+
+/*.center{
+  vertical-align: center;
+}*/
+
+footer ul li{
+    list-style: none;
+}
+
+h1{
+margin: 0.5em;
+
+}
+.nav-list li{
+  display: inline-block;
+    list-style: none;
+}
+
+.container{
+margin:15px;
+/*position:absolute; top:50px; /*left:10px*/
+}
+
+.float {
+  margin: 0px 35%;
+    /*background-color: #FCF;*/
+    list-style: none;
+    width: 30%;
+    clear: both;
+}
+.float li {
+    /*background-color: #CFF;*/
+    float: left;
+    height: 40px;
+    width: 20%;
+    box-sizing: border-box;
+    display: table;
+}
+.float li a {
+    /*background-color: #0F0;*/
+    display: table-cell;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration:none;
+}
+
+a {
+/*    text-decoration:none;
+    border-top: solid 2px #5989cf;
+    border-bottom: solid 2px #5989cf;
+        background: #cde4ff;
+*/  }
+
+a:link {color:#000000;} /*未訪問のリンクの色*/
+a:visited {color:#000000;} /*訪問済みのリンクの色*/
+a:hover {color:#ffffff; background:#0000cc;} /*カーソルが乗っているリンクの色*/
+a:active {color:#ffffff;} /*クリック中のリンクの色*/
+
+.float li a:hover {
+    background-color: #000;
+    border-top:
+
+}
+
+ul{height: 40px;
+}
+
+@media screen and (min-width: 0px) and (max-device-width: 320px) {
+...
+}
+@media screen and (min-width: 321px) and (max-device-width: 920px) {
+body{
+  font-size: 33px;
+}
+
+.top_visual{
+  width: 100%;
+  position: fixed;top:10px; left: 10px;
+}
+.my_visual{
+  width: 50%;
+}
+
+footer ul li img{
+  height: 40px;
+}
+
+header{
+  margin-top: 200px;
+/*position:absolute; top:50px; /*left:10px*/
+}
+
+.float {
+    padding-top: 200px;
+    list-style: none;
+    width: 100%;
+}
+
+
+}
+@media screen and (min-width: 911px)  {
+...
+}
+ 
