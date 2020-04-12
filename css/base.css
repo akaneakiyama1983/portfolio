@@ -39,7 +39,7 @@ margin: 0.5em;
 
 .container{
 margin:15px;
-/*position:absolute; top:50px; /*left:10px*/
+height: 50%;
 }
 
 .float {
@@ -124,4 +124,3 @@ header{
 @media screen and (min-width: 911px)  {
 ...
 }
- 
